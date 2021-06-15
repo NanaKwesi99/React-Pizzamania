@@ -17,10 +17,10 @@ const Carousel = () => {
       {/* <!-- Wrapper for slides --> */}
       <div className="carousel-inner carousel-content" role="listbox">
         <div className="item active">
-          <img src={images} alt="pizza" />
+          <img className="imgstyle" src={images} alt="pizza" />
         </div>
         <div className="item">
-          <img src={images2} alt="pizza" />
+          <img className="imgstyle" src={images2} alt="pizza" />
         </div>
     
       </div>
