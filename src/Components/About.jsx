@@ -1,11 +1,11 @@
 import React from 'react';
 import img from '../images/B.jpg';
 
-const About = () => {
+const About = (props) => {
     return (
         <div className="container about-pizza">
 	<div className="row">
-		<h2 className="text-center">About Pizza</h2>
+		<h2 className="text-center">{props.title}</h2>
 
 		<div className="col-md-6">
 			<img src={img} alt="about pizza" className="img-responsive" />

@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Carousel />
-       <About />
+       <About title={"PROMOTION"}/>
       <PizzaTypes />
        <Footer /> 
        
